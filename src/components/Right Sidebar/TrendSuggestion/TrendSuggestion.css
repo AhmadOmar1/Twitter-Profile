@@ -1,0 +1,39 @@
+.trend-suggestion {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    display: block;
+
+}
+
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.type,
+.numberOfPosts,
+.dot-icon {
+    color: gray;
+    font-weight: 600;
+}
+
+.dot-icon {
+    margin-top: -4px;
+}
+
+.rtl {
+    position: absolute;
+    right: 0;
+    font-family:   serif;
+    line-height: 0px;
+}

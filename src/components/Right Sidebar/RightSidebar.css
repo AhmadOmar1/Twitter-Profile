@@ -1,0 +1,11 @@
+.right-sidebar{
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+    padding: 1rem;
+}
+.right {
+    background-color: rgb(26, 28, 30);
+    border-radius: 15px;
+    width: 400px;
+}

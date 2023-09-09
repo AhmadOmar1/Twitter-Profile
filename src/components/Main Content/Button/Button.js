@@ -1,0 +1,12 @@
+import React, { Fragment } from 'react'
+import './Button.css'
+
+const Button = ({name,className}) => {
+  return (
+    <> 
+        <button className={className}>{name}</button> 
+    </>
+  )
+}
+
+export default Button

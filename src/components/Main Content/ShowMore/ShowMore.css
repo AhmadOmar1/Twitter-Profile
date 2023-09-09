@@ -1,0 +1,10 @@
+.show-more{
+    color : rgb(92, 175, 251);
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 1s linear ;
+}
+
+.show-more:hover{
+    color : rgb(154, 192, 227);
+}

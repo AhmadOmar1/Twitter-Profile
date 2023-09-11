@@ -7,8 +7,11 @@ import Trends from './Trends/Trends'
 const RightSidebar = () => {
   return (
     <div className='right-sidebar'>
-      <Search />
-      <YouMightLike/>
+      <div className="header-content">
+        <Search className='search-container' />
+      </div>
+
+      <YouMightLike />
       <Trends />
     </div>
   )

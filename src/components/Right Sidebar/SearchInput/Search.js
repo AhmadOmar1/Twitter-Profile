@@ -1,16 +1,20 @@
 import React from 'react';
 import './Search.css'
+import { BiSearch } from 'react-icons/bi';
 
-const Search = ({ placeholder, onChange }) => {
+const Search = ({ onChange }) => {
     return (
         <div className="search-container">
-            <i className="fas fa-search search-icon"></i>
-            <input
-                type="text"
-                className="right search-input"
-                placeholder={"Search"}
-                onChange={onChange}
-            />
+            <BiSearch className='search-icon' />
+            <div className='search'>
+                <input
+                    type="text"
+                    className="right search-input"
+                    placeholder={"Search"}
+                    onChange={onChange}
+                />
+            </div>
+
 
         </div>
     );

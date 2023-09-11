@@ -1,25 +1,23 @@
-.search-container {
-    position: relative;
-    display: inline-block;
-
+.search-container{
+  display: inline-block;
 }
 
 .search-input {
-
-    padding: 15px 40px;    
-    font-size: 16px;
+  padding: 11px 45px;
+  font-size: 16px;
+  color: gray;
+  border: none;
+  position: relative;
+}
+.search-icon , .search-input {
     color:gray;
 }
-
-input {
-    border: none;
-
-}
-
 .search-icon {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    color:gray;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: gray;
+  font-size: larger;
+  z-index: 2000;
 }

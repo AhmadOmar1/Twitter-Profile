@@ -8,10 +8,16 @@
 }
 
 .Nav-item span {
-   font-weight: 400;
+   font-weight: 500;
    font-size: 20px;
 }
 
 .Nav-icon {
-    font-size: 25px;
+    font-size: 1.8rem;
 }
+
+@media screen and (max-width: 968px){
+    /* .Nav-item span{
+        display: none;
+    } */
+} 

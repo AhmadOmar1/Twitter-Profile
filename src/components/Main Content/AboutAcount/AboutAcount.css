@@ -1,0 +1,35 @@
+.profile-list-elements {
+    display: flex;
+    color: gray;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.list-element {
+    position: relative;
+    cursor: pointer;
+}
+
+.list-element::after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    background-color: rgb(94, 149, 211);
+    border-radius: 15px;
+    transition: width 0.3s, height 0.3s; /* Added transitions */
+}
+
+.list-element:hover {
+    color: white;
+    font-weight: 500;
+}
+
+.list-element:hover::after { 
+    width: 60px;
+    height: 5px;
+}

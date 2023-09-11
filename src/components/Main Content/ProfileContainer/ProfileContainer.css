@@ -1,0 +1,6 @@
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-bottom:0.1rem solid rgb(159, 155, 155);
+}

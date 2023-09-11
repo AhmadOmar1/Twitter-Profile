@@ -1,0 +1,25 @@
+.followed-by,
+.about-who-to-follow {
+  margin: 0;
+  padding: 0;
+}
+
+.folllowed-by{
+    color: gray;
+    display: flex;
+    align-items: end;
+    gap: 0.8rem;
+    padding: 0rem 1rem;
+    margin-bottom: -2.7rem;
+}
+.about-who-to-follow{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.acount-description{
+    margin-top: -1.7rem;
+    padding: 0rem 0rem 0rem 3rem;
+}
+

@@ -9,7 +9,7 @@ function MainLayout() {
     <div className="main-layout">
       <Navigation />
       <MainContent />
-      <RightSidebar />
+      <RightSidebar/>
     </div>
   );
 }

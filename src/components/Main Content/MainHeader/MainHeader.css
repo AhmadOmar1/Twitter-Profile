@@ -1,0 +1,21 @@
+.main-header {
+  background: rgba(151, 142, 142, 0.2);
+  box-shadow: 0 4px 30px rgba(64, 62, 62, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0rem 0.8rem;
+  font-size: 0.9rem;
+}
+
+.posts-count {
+  color: gray;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.arrow-back {
+  font-size: 20px;
+}

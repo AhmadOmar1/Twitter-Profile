@@ -1,0 +1,11 @@
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    border-left: 0.01rem solid rgb(147, 131, 131);
+    border-right: 0.01rem solid rgb(147, 131, 131);
+    width: 50%;
+  }
+  
+ 
+  

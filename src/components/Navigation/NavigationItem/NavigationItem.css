@@ -15,9 +15,3 @@
 .Nav-icon {
     font-size: 1.8rem;
 }
-
-@media screen and (max-width: 968px){
-    /* .Nav-item span{
-        display: none;
-    } */
-} 
